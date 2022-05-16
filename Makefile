@@ -9,6 +9,4 @@ makefile:
 	git push origin HEAD
 
 push-all:
-	git add .
-	git commit -m "commit"
-	git push origin HEAD
+	git add . && git commit -m "commit all changes" && git push origin HEAD
